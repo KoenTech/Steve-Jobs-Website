@@ -96,11 +96,11 @@ a:hover {
     color: white;
     position: absolute;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 12%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 120px;
 }
 h1{
