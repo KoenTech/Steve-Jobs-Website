@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<!--   ############################################################
+       #                                                          #
+       #             Copyright © 2020 - Koen Caspers              #
+       #                                                          #
+       ############################################################
+-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="feedback.css">
+    <link rel="shortcut icon" href="favicon2.ico">
+</head>
+<body>
+    <nav>
+        <a href="./home.html">Home</a>
+        <a href="./About.html">About</a>
+        <a href="./Gallery.html">Gallery</a>
+        
+        <a href="./Timeline.html">Timeline</a>
+        <a href="./feedback.html" id="feedback">Feedback</a>
+    </nav>
+    <div style="height: 70px; width: 100%;"></div>
+    
+    <form id="postForm" action="">
+        <p>Hier kunt u de score invullen en die worden dan automatisch geupload naar Firebase.</p>
+        <p>Structuur (Head + Body)</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="structuur">
+            <input type="radio" class="inpt" value="2" name="structuur">
+            <input type="radio" class="inpt" value="3" name="structuur">
+            <input type="radio" class="inpt" value="4" name="structuur">
+            <input type="radio" class="inpt" value="5" name="structuur">
+        </div>
+        <br>
+        <p>Min. 2 Links naar pagina</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="links">
+            <input type="radio" class="inpt" value="2" name="links">
+            <input type="radio" class="inpt" value="3" name="links">
+            <input type="radio" class="inpt" value="4" name="links">
+            <input type="radio" class="inpt" value="5" name="links">
+        </div>
+        <br>
+        <p>Homepage</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="Homepage">
+            <input type="radio" class="inpt" value="2" name="Homepage">
+            <input type="radio" class="inpt" value="3" name="Homepage">
+            <input type="radio" class="inpt" value="4" name="Homepage">
+            <input type="radio" class="inpt" value="5" name="Homepage">
+        </div>
+        <br>
+        <p>Gegevenspage</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="Gegevenspage">
+            <input type="radio" class="inpt" value="2" name="Gegevenspage">
+            <input type="radio" class="inpt" value="3" name="Gegevenspage">
+            <input type="radio" class="inpt" value="4" name="Gegevenspage">
+            <input type="radio" class="inpt" value="5" name="Gegevenspage">
+        </div>
+        <br>
+        <p>Foto's page</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="fotos">
+            <input type="radio" class="inpt" value="2" name="fotos">
+            <input type="radio" class="inpt" value="3" name="fotos">
+            <input type="radio" class="inpt" value="4" name="fotos">
+            <input type="radio" class="inpt" value="5" name="fotos">
+        </div>
+        <br>
+        <p>Titel/Koppen/Alinea's/Divs</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="divs">
+            <input type="radio" class="inpt" value="2" name="divs">
+            <input type="radio" class="inpt" value="3" name="divs">
+            <input type="radio" class="inpt" value="4" name="divs">
+            <input type="radio" class="inpt" value="5" name="divs">
+        </div>
+        <br>
+        <p>Foto's</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="pictures">
+            <input type="radio" class="inpt" value="2" name="pictures">
+            <input type="radio" class="inpt" value="3" name="pictures">
+            <input type="radio" class="inpt" value="4" name="pictures">
+            <input type="radio" class="inpt" value="5" name="pictures">
+        </div>
+        <br>
+        <p>CSS linked (ID, Class)</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="CSSlinked">
+            <input type="radio" class="inpt" value="2" name="CSSlinked">
+            <input type="radio" class="inpt" value="3" name="CSSlinked">
+            <input type="radio" class="inpt" value="4" name="CSSlinked">
+            <input type="radio" class="inpt" value="5" name="CSSlinked">
+        </div>
+        <br>
+        <p>CSS styling (color, fonts, font-size)</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="CSSstyle">
+            <input type="radio" class="inpt" value="2" name="CSSstyle">
+            <input type="radio" class="inpt" value="3" name="CSSstyle">
+            <input type="radio" class="inpt" value="4" name="CSSstyle">
+            <input type="radio" class="inpt" value="5" name="CSSstyle">
+        </div>
+        <br>
+        <p>Design totaal</p>
+        <div>
+            <input type="radio" class="inpt" value="1" name="design">
+            <input type="radio" class="inpt" value="2" name="design">
+            <input type="radio" class="inpt" value="3" name="design">
+            <input type="radio" class="inpt" value="4" name="design">
+            <input type="radio" class="inpt" value="5" name="design">
+        </div>
+        <button type="submit">OK</button>
+        <p id="confirmed1"></p>
+        <p id="uploaded1"></p>
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="feedback.js"></script>
+</body>
+</html>

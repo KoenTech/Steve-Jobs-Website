@@ -1,0 +1,72 @@
+p {
+    display: inline-block;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-family: Calibri;
+    color: white;
+    text-align: left;
+}
+#confirmed1 {
+    display: inline-block;
+    grid-column: 2;
+    text-align: center;
+}
+#postForm {
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 25px;
+}
+.inpt {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-left: 10px;
+}
+body {
+    background-color: #121212;
+    margin-top: 0px;
+}
+/* Hide the browser's default radio button */
+#postForm input {
+    position: relative;
+    opacity: 100;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    color: red;
+}
+nav {
+    background-color: #050505;
+    color: white;
+    padding: 10px;
+    padding-top: 15px;
+    height: 3%;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 10;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#feedback {
+    float: right;
+    margin-right: 5%;
+}
+a {
+    font-family: 'Nirmala UI';
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+}

@@ -1,19 +1,307 @@
 ﻿<!DOCTYPE html>
-
-<link rel="stylesheet" type="text/css" href="Style.css">
+<!--
+       ############################################################
+       #                                                          #
+       #             Copyright © 2020 - Koen Caspers              #
+       #                                                          #
+       ############################################################
+-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<link rel="stylesheet" type="text/css" href="timeline.css">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Timeline</title>
+    <link rel="shortcut icon" href="favicon2.ico">
+
 </head>
 <body>
     <nav>
-        <a href="./Home.html">Home</a>
+        <a href="./home.html">Home</a>
         <a href="./About.html">About</a>
         <a href="./Gallery.html">Gallery</a>
-        <a href="./Apple.html">Apple</a>
-        <a href="./Timeline.html">Timeline</a>
+       
+        <a href="./Timeline.html" id="activeItem">Timeline</a>
+        <a href="./feedback.html" id="feedback">Feedback</a>
     </nav>
 
+    <section id="tl-timeline" class="tl-container">
+
+
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Birth</h2>
+                <p>Steven Paul Jobs is born in San Francisco to Joanne Carole Schieble and Abdulfattah Jandali. The then-unmarried couple give up their son to adoption. Paul and Clara Jobs become Jobs' non-biological parents.</p>
+                <span class="tl-date">1955</span>
+            </div>
+        </div>
+
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-picture">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Silicon Valley</h2>
+                <p>The Jobs family moves to Mountain View, Calif., part of what would later become known as Silicon Valley.</p>
+                <span class="tl-date">1961</span>
+            </div>
+        </div>
+
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-location">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Spare parts</h2>
+                <p>Jobs calls Bill Hewlett, the co-founder and co-namesake of Hewlett-Packard, looking for spare parts to build a frequency counter. Hewlett gives Jobs the parts, as well as an internship with the company that summer.</p>
+                <span class="tl-date">1968</span>
+            </div>
+        </div>
+
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-location">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Steve and Steve</h2>
+                <p>Meets future Apple co-founder Steve Wozniak through a friend. In Wozniak's 2006 autobiography, "iWoz," he notes that the two "hit it off" immediately, despite their four-year age difference.</p>
+                <span class="tl-date">1970</span>
+            </div>
+        </div>
+
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Graduation</h2>
+                <p>Graduates from Homestead High School in Cupertino, Calif., and enrolls at Reed College in Portland, Ore., only to drop out a semester later. Jobs would go on to sit in on classes that interested him, such as calligraphy, despite not getting credit for them.</p>
+                <span class="tl-date">1972</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Atari</h2>
+                <p>Begins a brief stint as an engineer at Atari. Working the night shift, he employs Wozniak to help whittle down the hardware required for a prototype of a single-player version of Pong, the game that would go on to become Breakout. Jobs leaves Atari in the summer to travel through India, only to return to California to live in a commune.</p>
+                <span class="tl-date">1974</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Apple I</h2>
+                <p>Co-founds Apple Computer with Wozniak and Ronald Wayne. That same year, the company sells the Apple I in the form of a kit that sells for $666.66.</p>
+                <span class="tl-date">1976</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Apple II</h2>
+                <p>Releases the Apple II, the first commercially available personal computer in a plastic case with color graphics--and Apple's first successful personal computer.</p>
+                <span class="tl-date">1977</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Macintosh</h2>
+                <p>Two days after the $1.5 million Ridley Scott-directed "1984" Super Bowl commercial airs, introduces the Macintosh to much fanfare during Apple's shareholder meeting. "For the first time ever, I'd like to let Macintosh speak for itself." The computer's voice then says, "Never trust a computer you can't lift." Macintosh becomes the first commercially successful small computer with a graphical user interface.</p>
+                <span class="tl-date">1984</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>NeXT</h2>
+                <p>CEO John Sculley engineers Jobs' ouster from Apple. Jobs resigns as Apple chairman, saying in a board meeting, "I've been thinking a lot, and it's time for me to get on with my life. It's obvious that I've got to do something. I'm 30 years old." Soon thereafter, Jobs starts NeXT Computer (which later becomes NeXT Software), funded by selling $70 million of his Apple stock. An "interpersonal" NeXT workstation, sporting a built-in Ethernet port, is used by Tim Berners-Lee at CERN to become the first server of the World Wide Web.</p>
+                <span class="tl-date">1985</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Pixar</h2>
+                <p>Becomes Pixar's president and CEO. Later in the year, Jobs brings Pixar public, one week after the release of "Toy Story," with Tom Hanks doing the voice of Woody and Tim Allen as Buzz Lightyear. The film earns $192 million at the box office. Its success helps make it quite attractive for celebrities to lend their voices to animated characters.</p>
+                <span class="tl-date">1995</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Return to Apple</h2>
+                <p>Returns to Apple, as an adviser, after it buys NeXT for $429 million.</p>
+                <span class="tl-date">1996/span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Microsoft</h2>
+                <p>Announces a $150 million investment from Microsoft, coupled with a partnership on Microsoft Office and Internet Explorer for the Mac.</p>
+                <span class="tl-date">1997</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Apple Store</h2>
+                <p>Introduces the Apple Store, which lets consumers custom-order Apple products directly from the company online.</p>
+                <span class="tl-date">1997</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iMac</h2>
+                <p>Introduces the iMac, which becomes commercially available in August.</p>
+                <span class="tl-date">1998</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iCEO</h2>
+                <p>Drops the "interim" from his CEO title at the Macworld Expo, joking that he would be using the title "iCEO," paying homage to the company's product-naming conventions. Takes a $1 annual salary. Soon terminates projects including Newton and OpenDoc, and changes licensing terms to make Mac-cloning cost-prohibitive. Technologies developed at NeXT ultimately evolve into Apple products such as the Mac OS.</p>
+                <span class="tl-date">2000</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iTunes</h2>
+                <p>Introduces iTunes, then exclusively for Mac users. "iTunes is miles ahead of every other jukebox application, and we hope its dramatically simpler user interface will bring even more people into the digital music revolution."</p>
+                <span class="tl-date">2001</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iPod</h2>
+                <p>
+                    Introduces the iPod: "With iPod, Apple has invented a whole new category of digital music player that lets you put your entire music collection in your pocket and listen to it wherever you go...With iPod, listening to music will never be the same again." Apple's shipped more than 300 million iPods as of October 2011.
+                </p>
+                <span class="tl-date">2001</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iPod - Windows</h2>
+                <p>Apple introduces the first Windows-compatible iPods at Macworld.</p>
+                <span class="tl-date">2002</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iTunes Music Store</h2>
+                <p>Opens the iTunes Music Store in the United States. Apple sold 10 billion songs via iTunes as of February 24, 2010, and it counted 225 million iTunes accounts with credit cards as of June 2011.</p>
+                <span class="tl-date">2003</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iPod shuffle</h2>
+                <p>Apple introduces an iPod Shuffle. "iPod Shuffle is smaller and lighter than a pack of gum and costs less than $100...With most flash memory music players, users must use tiny displays and complicated controls to find their music; with iPod Shuffle you just relax, and it serves up new combinations of your music every time you listen."</p>
+                <span class="tl-date">2005</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>intel</h2>
+                <p>At WWDC, announces switch from IBM chips to Intel's Core Duo chips with Apple's new MacBook Pro and iMac.</p>
+                <span class="tl-date">2005</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iPhone</h2>
+                <p>Drops "Computer" from Apple's name. Introduces the iPhone: "iPhone is a revolutionary and magical product that is literally five years ahead of any other mobile phone...We are all born with the ultimate pointing device--our fingers--and iPhone uses them to create the most revolutionary user interface since the mouse." Apple owns 19.1 percent of the smartphone market as of August 2011, having shipped 108 million iPhones worldwide as of March 2011.</p>
+                <span class="tl-date">2007</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>App Store</h2>
+                <p>Introduces the App Store as an update to iTunes. Also introduces the MacBook Air. The App Store facilitated 18 billion app downloads as of October 4, 2011.</p>
+                <span class="tl-date">2008</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>iPad</h2>
+                <p>Introduces the iPad. Apple sells 500,000 iPads during their first week on the market and gains 84 percent of the tablet market by the end of the year, with an estimated 12.9 million shipped as of December 10, 2010, and 25 million shipped worldwide as of June 2011. That same month, the company discloses that it has sold 200 million iOS devices.</p>
+                <span class="tl-date">2010</span>
+            </div>
+        </div>
+        <div class="tl-timeline-block">
+            <div class="tl-timeline-img tl-movie">
+            </div>
+
+            <div class="tl-timeline-content">
+                <h2>Death</h2>
+                <p>Steve Jobs died on the 5th of october in 2011.</p>
+                <span class="tl-date">R.I.P.</span>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        ScrollReveal({ reset: true });
+        ScrollReveal().reveal('p', { delay: 100, distance: '5%', origin: 'bottom' });
+        ScrollReveal().reveal('h2', { delay: 70, distance: '50%', origin: 'bottom' });
+        ScrollReveal().reveal('span', { delay: 50, distance: '5%', origin: 'bottom' });
+        ScrollReveal().reveal('div', { delay: 50, distance: '5%', origin: 'bottom' });
+    </script>
 </body>
 </html>

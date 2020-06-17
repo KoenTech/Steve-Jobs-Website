@@ -5,26 +5,23 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B51684E3-82E8-4A64-8360-034FAB4A1D21}"
 	ProjectSection(SolutionItems) = preProject
-		About.html = About.html
-		Apple.html = Apple.html
-		Gallery.html = Gallery.html
-		Home.html = Home.html
-		..\..\Downloads\Steve_banner.jpg = ..\..\Downloads\Steve_banner.jpg
-		Style.css = Style.css
-		Timeline.html = Timeline.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Media", "Media", "{31326B51-9062-47C7-8288-D4F6C43EF6BD}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Downloads\Steve_banner.jpg = ..\..\Downloads\Steve_banner.jpg
+		Website\About.html = Website\About.html
+		Website\Apple.html = Website\Apple.html
+		Website\feedback.css = Website\feedback.css
+		Website\Feedback.html = Website\Feedback.html
+		Website\feedback.js = Website\feedback.js
+		Website\Gallery.html = Website\Gallery.html
+		Website\Home.html = Website\Home.html
+		Website\Steve_banner.jpg = Website\Steve_banner.jpg
+		Website\Steve_iPad.png = Website\Steve_iPad.png
+		Website\Style.css = Website\Style.css
+		Website\timeline.css = Website\timeline.css
+		Website\Timeline.html = Website\Timeline.html
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{31326B51-9062-47C7-8288-D4F6C43EF6BD} = {B51684E3-82E8-4A64-8360-034FAB4A1D21}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B8C5CBC-12BC-41B1-A0D2-C519A96B1193}
