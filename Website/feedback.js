@@ -1,19 +1,13 @@
 //   ############################################################
 //   #                                                          #
-//   #             Copyright © 2020 - Koen Caspers              #
+//   #             Copyright Â© 2020 - Koen Caspers              #
 //   #                                                          #
 //   ############################################################
  
  
  'use strict';
   var config = {
-    apiKey: "AIzaSyCwgFwjrYX2BBA8rXdQ14TjsRy3P1T8Z40",
-    authDomain: "website-informatica-6d5dd.firebaseapp.com",
-    databaseURL: "https://website-informatica-6d5dd.firebaseio.com",
-    projectId: "website-informatica-6d5dd",
-    storageBucket: "website-informatica-6d5dd.appspot.com",
-    messagingSenderId: "555644836286",
-    appId: "1:555644836286:web:d2aebcf5b6e483d7d0c1ef"
+    XXXXXXXXXXXX
   };
   // Initialize Firebase
   firebase.initializeApp(config);
